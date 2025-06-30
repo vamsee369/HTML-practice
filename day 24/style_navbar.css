@@ -24,6 +24,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #00bcd4;
 }
 
 /* NAV LINKS */
@@ -43,6 +44,8 @@ body {
 .nav-links li a:hover {
     color: #00bcd4;
 }
+
+
 
 /* Responsive: Stack links vertically on small screens */
 @media (max-width: 600px) {
