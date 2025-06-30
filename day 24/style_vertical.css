@@ -1,0 +1,37 @@
+/* Make body take full screen and center the container */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* horizontal centering */
+    align-items: center;
+    /* vertical centering */
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+/* Flex container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* vertical list */
+    gap: 15px;
+    /* space between items */
+}
+
+/* Each item */
+.item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
